@@ -1,0 +1,9 @@
+<script>
+window.dataLayer = window.dataLayer || [];
+window.dataLayer.push({
+ 'event': 'login', // constant, no need to update
+ 'userId': 'abc123', // value needs to be replaced pull in the dynamic value for UserID
+ 'pricingPlan': 'premium', // needs to pull in the dynamic value for pricingPlan
+ 'sessionNumber': 7 // needs to pull in the dynamic value for sessionNumber
+ });
+ </script>
